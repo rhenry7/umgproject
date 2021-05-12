@@ -6,11 +6,11 @@ const Jumbo = (props) => {
     <div>
       <Jumbotron className="mb-5 text-center" >
         <h1 className="display-1 font-weight-bold joe-artist" >JOE THE ARTIST</h1>
-        <p className="lead"> Donec molestie hendrerit mi ut viverra. Morbi a hendrerit leo. </p>
+        <p className="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet mauris nibh. Aliquam erat volutpat. </p>
         <hr className="ml-4" />
-        <p>Get the new single, January 15th, 2055</p>
+        <h4 className="mb-4">Get the new single, January 15th, 2055</h4>
         <p className="lead">
-          <Button className="mb-4" color="danger">Subscribe</Button>
+          <Button className="mb-4 btn-sm" color="danger">Subscribe</Button>
         </p>
       </Jumbotron>
     </div>

@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,900&display=swap');
+
+/* use for title font */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,300;1,900&display=swap');
 body {
     font-family: 'Proza Libre', sans-serif;
 }
 
 .App {
     text-align: center;
+}
+
+.joe-artist {
+    font-family: 'Anton', sans-serif;
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 0px;
+    width: 50%;
 }
 
 .App-logo {
@@ -26,7 +41,7 @@ body {
 
 .navFont {
     font-size: 17px;
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navBarBg {

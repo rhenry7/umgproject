@@ -8,13 +8,12 @@ const Merch = (props) => {
   return (
     <Container className="mb-5">
         <h1>Check out new Merch</h1>
-
     <Row>
     
-    <Col xs="12" sm="4" className="mb-5">
+    <Col xs="12" sm="4" className="mb-5" >
     <Card>
         <CardImg top width="100%" src="https://images.pexels.com/photos/3642350/pexels-photo-3642350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
-        <CardBody>
+        <CardBody color="danger">
           <CardSubtitle tag="h6" className="mb-2 text-dark">Cassette Tapes</CardSubtitle>
           
         </CardBody>

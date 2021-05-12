@@ -45,7 +45,7 @@ function YouTube(props) {
       <Container className="mt-5">
           <h1>Youtube Charts</h1>
       <Row>
-      <Col xs="12" sm="4">
+      <Col xs="12" sm="4" className="mb-3">
         <Card>
           <CardBody>
             <CardTitle tag="h5"></CardTitle>
@@ -54,7 +54,7 @@ function YouTube(props) {
           </CardBody>
         </Card>
         </Col>
-        <Col xs="12" sm="4">
+        <Col xs="12" sm="4" className="mb-3">
         <Card>
           <CardBody>
             <CardTitle tag="h5"></CardTitle>
@@ -62,7 +62,7 @@ function YouTube(props) {
             <CardText>{}</CardText>
           </CardBody>
         </Card>
-        </Col><Col xs="12" sm="4">
+        </Col><Col xs="12" sm="4" className="mb-3">
         <Card>
           <CardBody>
             <CardTitle tag="h5"></CardTitle>

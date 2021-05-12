@@ -7,12 +7,12 @@ import {
 class Tours extends Component {
     render() {
         return (
-            <Container className="mt-5 mb-5">
+            <Container className="mt-5 mb-5" fluid>
             <h1>Tour Dates</h1>
     
         <Row>
         
-        <Col xs="4 " sm="4">
+        <Col xs="12 " sm="4" className="mb-5">
         <Card>
         <CardImg top width="100%" src="https://images.pexels.com/photos/2193300/pexels-photo-2193300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
             <CardBody>
@@ -22,7 +22,7 @@ class Tours extends Component {
             </CardBody>
           </Card>
           </Col>
-            <Col xs="4" sm="4">
+            <Col xs="12" sm="4" className="mb-5">
             <Card>
             <CardImg top width="100%" src="https://images.pexels.com/photos/2067048/pexels-photo-2067048.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Card image cap" />
             <CardBody>
@@ -30,7 +30,7 @@ class Tours extends Component {
               <CardText className="text-dark">November 2021</CardText>   
             </CardBody>
           </Card>        </Col>
-            <Col sm="4" xs="4"> <Card>
+            <Col sm="4" xs="12" className="mb-5"> <Card>
             <CardImg top width="100%" src="https://images.pexels.com/photos/2868242/pexels-photo-2868242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap" />
             <CardBody>
               <CardTitle tag="h5" className="text-dark">Brazil</CardTitle>

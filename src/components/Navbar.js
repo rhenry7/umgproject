@@ -22,7 +22,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar className="mb-5" dark expand="md">
-        <NavbarBrand className="navFont" href="/">JOE</NavbarBrand>
+        <NavbarBrand className="navFont" href="/">JOE THE ARTIST</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
