@@ -1,38 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,900&display=swap');
+body {
+    font-family: 'Proza Libre', sans-serif;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.title {
+    font-size: large;
+    font-weight: 800;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.navFont {
+    font-size: 17px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.navBarBg {
+    background-color: white;
+}
+
+.topBg {
+    background-color: white;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 900;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    border-width: .2rem;
+}
+
+.fluid-promo {
+    background-image: url('https://images.pexels.com/photos/785695/pexels-photo-785695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    height: 100%;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.Spacing {
+    margin-bottom: auto;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
