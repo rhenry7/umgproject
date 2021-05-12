@@ -7,7 +7,7 @@ import {
 class Tours extends Component {
     render() {
         return (
-            <Container className="mt-5 mb-5" fluid>
+            <Container className="mt-5 mb-5">
             <h1>Tour Dates</h1>
     
         <Row>

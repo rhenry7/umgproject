@@ -8,9 +8,9 @@ const Jumbo = (props) => {
         <h1 className="display-1 font-weight-bold joe-artist" >JOE THE ARTIST</h1>
         <p className="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet mauris nibh. Aliquam erat volutpat. </p>
         <hr className="ml-4" />
-        <h4 className="mb-4">Get the new single, January 15th, 2055</h4>
+        <h4 className="mb-4">Get the new single, out now</h4>
         <p className="lead">
-          <Button className="mb-4 btn-sm" color="danger">Subscribe</Button>
+          <Button className="mb-4 btn-sm" color="danger">Download</Button>
         </p>
       </Jumbotron>
     </div>
