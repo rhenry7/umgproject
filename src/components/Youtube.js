@@ -14,9 +14,8 @@ import {
   Card, CardText, CardBody,
   CardTitle, CardSubtitle, Container, Row, Col, 
 } from 'reactstrap'; //using reactstrap for handling basic UI styling
-import MusicScript from '../services/GetTheScript';
 
-import axios from 'axios';
+// import axios from 'axios';
 import { useEffect, useState } from 'react'; 
 
 
@@ -37,6 +36,45 @@ import { useEffect, useState } from 'react';
 // }
 // getMusic(MusicScript());
 // Main music component, takes property of artist variable, saved to card for display to browser 
+
+
+/* 
+
+// import API data for YouTube
+let apiURL = '...'; 
+
+useEffect(() => {
+  
+    let mounted = true;
+    // assigning error message to display problem with data
+    let error = 'there is a problem displaying data';
+    // is promised based, handles async request
+    axios.get(apiURL)
+      .then(response => {
+         // console.log(response) // response is logged as an array
+        console.log(artists)
+        if(mounted) {
+          // take the artists array, and get the first artist
+          setArtist({ artists: response.data.artists.artist })
+          // log first artist to console to test if visible 
+          //console.log(artists[0])
+        }
+      }).catch(error => {
+        console.log(error)
+      }) // since axios is promise based, will use catch error to identify if there is a problem
+    return () => mounted = false;
+  }, [])
+
+
+// once I have the videos, use filter to get top views, slice to get too 3, and map to each item in the array 
+
+videos.filter(function (e){
+  return e.views > 500000
+}).slice(0, 3).map(video) => (<div>
+  {video.title}
+  </div>)
+
+*/
 
 function YouTube(props) {
   {
@@ -77,7 +115,5 @@ function YouTube(props) {
   }
 };
 
-
-// export music component, but maybe should export entire thing (including API, Script) ? 
 export default YouTube;
 

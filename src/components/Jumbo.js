@@ -10,7 +10,7 @@ const Jumbo = (props) => {
         <hr className="ml-4" />
         <h4 className="mb-4">Get the new single, out now</h4>
         <p className="lead">
-          <Button className="mb-4 btn-sm" color="danger">Download</Button>
+          <Button className="mb-4 btn-l" color="danger">Download</Button>
         </p>
       </Jumbotron>
     </div>
