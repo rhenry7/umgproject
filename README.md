@@ -1,3 +1,13 @@
+
+# Summary 
+
+This project was styled with react-strap for main components 
+Handling the API get request was done using Axios 
+The data for top Artist was taken from the LastFM API 
+Pexels was used for the images. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
